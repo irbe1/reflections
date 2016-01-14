@@ -1,0 +1,14 @@
+--What happens when you initialize a repository? Why do you need to do it?
+When a repository is initialized a .git repository appears in it with some default
+subdirectories. I guess this is needed so that further git operations such as adding
+a commit can be performed- there are directories where to add the relevant metadata.
+After a git repository is initialized it is also possible to use git status- so 
+the contents of the directory has already been 'registered'- git has started tracking them?
+
+--How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+Staging area is different from the working area in that it only has those files
+that are to be commited to the repository in the next commit. It is different from
+the repository in that files can be added/taken away. This allows for more flexibility
+in choosing what to commit- because all files to be commited are seen in one place
+and then can also be modified.
