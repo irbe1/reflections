@@ -1,0 +1,28 @@
+--How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It made spotting bug easier by pointing at lines that were changed in the new version-
+thus significantly reducing the amount of lines that needed to be searched for a bug.
+
+--How could having easy access to the entire history of a file make you a more efficient
+programmer in the long term?
+    * return to some previous version of development
+    * be able to go back & follow thought process and hence reflect on self-development
+    
+--What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does.
+
+Pros: allows to make commits at points in process when it makes sense- add logical changes and not things that are incomplete/do not run
+Cons: may forget adding a commit(human error)
+
+--Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is a version control system for tracking changes in software project. A piece of software is likely to consist of multiple files with close and complex relationship- a logical change may mean a change in different files. So being able to add multiple files in a single commit is crucial.
+Google Docs is a version control system for text files, which are unlikely to have such complex relationships, so maybe they didn't want to overcrowd it with unnecessary features.
+
+--How can you use commands git log and git diff to view the history of files?
+git log can be used to see the history of commits. It represents commits by an id and a message describing commit. This gives a general overview of file history. Actual code changes can then be explored using git diff with shas from git log to see what was changed in subsequent commits.
+
+--How might using version control make you more confident to make changes that might break something?
+Version control saves previous versions of a file and enables easy switching between different versions and comparing code- so any bug can be easily tracked down history of changes.
+
+--Now that you have your workspace set up, what do you want to try using Git for?
+I would like to get familiar with code others are writing and see if I am able to contribute. In general I would like to use Git to create a developer's portfolio, but I also want to get some inspiration and motivation from seeing others' code and being able to showcase my own. If I dream big I would like to play with some Pyhon and genetics and maybe Linux stuff. But for start, I guess uploading some Python program would be cool already.
