@@ -12,3 +12,10 @@ that are to be commited to the repository in the next commit. It is different fr
 the repository in that files can be added/taken away. This allows for more flexibility
 in choosing what to commit- because all files to be commited are seen in one place
 and then can also be modified.
+
+--How can you use the staging area to make sure you have one commit per logical
+change?
+Only add to staging area from working directory those files that correspond to
+single logical change. Staging area allows to select what from all things developer
+is working at would be added to a commit. So even if one works on multiple changes
+simultaneously only some chosen part of it needs to be commited at one time.
