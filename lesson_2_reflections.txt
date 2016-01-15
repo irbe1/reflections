@@ -19,3 +19,10 @@ Only add to staging area from working directory those files that correspond to
 single logical change. Staging area allows to select what from all things developer
 is working at would be added to a commit. So even if one works on multiple changes
 simultaneously only some chosen part of it needs to be commited at one time.
+
+--What are some situations when branches would be helpful in keeping your history
+organised? How would branches help?
+Branches would help in situations when I would want to explore some alternative
+option or maybe develop alternative version of project. Branches would then allow
+to develop alternative in parallel and either merge it into main project or leave
+as an alternative version.
