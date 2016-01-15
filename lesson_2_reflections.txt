@@ -26,3 +26,11 @@ Branches would help in situations when I would want to explore some alternative
 option or maybe develop alternative version of project. Branches would then allow
 to develop alternative in parallel and either merge it into main project or leave
 as an alternative version.
+
+--How do the diagrams help you visualize the branch structure?
+They are helpful in aiding of understanding that commits made on one branch
+would be unaccessible from commits made on parallel/earlier-created branches
+(unless merged?) as any one commit can only access its parent and this is how
+the history is tracked (?).
+However, when I print a graph(git log --graph --oneline branch1 branch2) of a
+locally created branch I get a list of all commits as if it was a single branch?
