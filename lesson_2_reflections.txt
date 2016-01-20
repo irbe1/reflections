@@ -34,3 +34,16 @@ would be unaccessible from commits made on parallel/earlier-created branches
 the history is tracked (?).
 However, when I print a graph(git log --graph --oneline branch1 branch2) of a
 locally created branch I get a list of all commits as if it was a single branch?
+
+--What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+The result is that the branch that is currently checked out(receiver branch) gets
+updated with the commits made in the giver branch. So all the commits made in 
+giver branch will now be available from the receiver branch. Commits will be 
+sorted according to the time of committing. New commit is created at time of
+merging which is the new tip of receiver(currently checked out) branch. This 
+result effectively means that changes made in giver branch will be incorporated
+into the receiver branch with the change history also available.
+Representing merge in a diagram allows to show what changes are made and also 
+refer to both historical state where the two branches are separate and future
+state where a new commit would be made 'on top' of existing ones.
