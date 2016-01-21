@@ -47,3 +47,12 @@ into the receiver branch with the change history also available.
 Representing merge in a diagram allows to show what changes are made and also 
 refer to both historical state where the two branches are separate and future
 state where a new commit would be made 'on top' of existing ones.
+
+--What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+Automatic merging is faster and easier. However, it could cause errors- Git is not
+able to parse code for syntax/logical errors, so automatic merge could create a
+commit with a buggy version of code because of some parts added twice in different
+version, etc. So manual merge here is better as it enforces the authors to look
+at areas that have been modified in more than of branches to be merged and decide
+which changes should be included in the merged version.
