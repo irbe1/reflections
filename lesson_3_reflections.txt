@@ -1,0 +1,3 @@
+--When would you want to use a remote rather than keeping all your work local?
+When the project is being developed in collaboration with others. Also, when you just want
+to make code accessible and/or invite people to collaborate.
