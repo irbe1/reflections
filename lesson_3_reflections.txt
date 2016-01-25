@@ -21,3 +21,7 @@ work on it locally and possibly push the changes back to remote when ready.
 Branches are alternative versions of project within the same repository. Useful
 when experimenting and/or developing alternatives. Branches can also be merged into
 main version when ready.
+
+--What is the benefit of having a copy of the last known state stored locally?
+It allows comparing own copy of project with the latest version of remote- even
+if offline. You can see whether you are ahead, behind, up-to-date or out of sync.
