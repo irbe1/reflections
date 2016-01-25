@@ -7,3 +7,17 @@ automatically stay up-to-data with your remote repository?
 If it is code, it would matter for me to know what it does. I would not want some
 unexpected change to appear suddenly which may also not be compatible with the 
 changes I have made myself and not pushed yet.
+
+--Describe the difference between forks, clones and branches. When would you use
+one instead of another?
+Forking is GitHub-specific version of cloning- allows to copy a repository someone
+else has made on GitHub on your own GitHub account. That would be useful if you
+want to create own version of someone else's project, either for own use or also
+to suggest some changes to it. Because fork is created on your GitHub account it
+allows other people to contribute to it, etc.
+Clones allow to create a local copy of either someone else's repository or your
+own repository. Useful if you want a copy of a project on your own computer to
+work on it locally and possibly push the changes back to remote when ready.
+Branches are alternative versions of project within the same repository. Useful
+when experimenting and/or developing alternatives. Branches can also be merged into
+main version when ready.
